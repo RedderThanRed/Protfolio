@@ -1,0 +1,45 @@
+/********************
+FizzBuzz Content
+********************/
+.fizzbuzz .container {
+    margin-top: 10%;
+    width: auto;
+}
+.container .content{
+    margin-top: 5%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    font-size: 5rem;
+}
+.container .content input{
+    width: 39%;
+    font-size: 1.15rem;
+    padding: 1.5rem;
+    color: black;
+    margin-block: 2%;
+}
+
+
+.fizzbuzz .content button{
+    margin-top: 2%;
+    height: 70px;
+    width: 165px;
+    background-color: #0188DF;
+    border: none;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.print{
+    color: white;
+    margin-top: 5%;
+    width: 100%; 
+    height: auto;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #171818;
+}

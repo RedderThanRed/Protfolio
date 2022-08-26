@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>FizzBuzz challenge</title>
+            <!-- CSS Styles -->
+            <!-- aos css file -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+            <!-- magnify popup css -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+            <!-- bootstrap -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+            <!-- font awesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+            <!-- Standard CSS -->
+            <link rel="stylesheet" href="./css/standard.css">
+            <!-- Style CSS -->
+            <link rel="stylesheet" href="./css/fizzbuzz.css">
+        </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="./index.html" class="logo">My<span> Portfolio</span></a>
+
+                <nav class="nav">
+                    <ul>
+                        <li><a href="./fizzbuzz.html">FizzBuzz</a></li>
+                        <li><a href="./WeatherOnMars.html">Weather on Mars</a></li>
+                        <li><a href="#about">About me </a></li>
+                        <li><a href="#nav4">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="fas fa-bars"></div>
+
+            </div>
+        </header>
+            <section class="fizzbuzz">
+                <div class="container">
+                    <h1>The FizzBuzz Challenge</h1>
+                    <div class="col-md-6 content">
+                            <input type="number" id="input" placeholder="Your FizzBuzz Number">
+                            <input class="challenge" type= "number" id="fizz-challenge" placeholder="Fizz Challenge Number">
+                            <input class="challenge" type="number" id="buzz-challenge" placeholder="Buzz Challenge Number">
+                            <button id="run">Lets FizzBuzz this number</button>         
+                    </div>
+                    <p class="print" id="output"></p>   
+                </div>
+            </section>
+        <!-- Jquery link -->
+        <script src="./jquery/jquery-3.6.0.min.js"></script>
+        <!-- magnification pop up -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <!-- aos js file-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- local js -->
+        <script type="text/javascript" src="./scripts/fizzbuzz.js"></script>
+        <script type="text/javascript" src="./scripts/webscript.js"></script>
+        <script>
+            AOS.init({
+                duration:1000,
+                delay:400
+            }); 
+        </script>
+    </body>
+</html>
